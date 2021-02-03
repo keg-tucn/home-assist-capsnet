@@ -1,0 +1,56 @@
+%[scadeIntensitateMuzica]('training': '90', 'testing': '40')
+    ~[greet?] ~[action] ~[muzica?] ~[la] @[nivel#relativ]
+    ~[greet?] ~[action] ~[muzica?] ~[la] @[nivel#absolut]
+    ~[greet?] ~[action] ~[muzicaD?] ~[la] @[nivel#relativ]
+    ~[greet?] ~[action] ~[muzicaD?] ~[la] @[nivel#absolut]
+    ~[greet?] ~[action] ~[muzica?]
+    ~[greet?] ~[action] ~[muzicaD?]
+    ~[greet?] ~[actionIntens] ~[muzicaD]
+    ~[greet?] ~[actionR] ~[muzicaR?]
+
+@[nivel#relativ]
+    ~[jumatate]
+    ~[sfert]
+    ~[minim]
+
+@[nivel#absolut]
+    ~[2]
+    ~[3]
+    ~[4]
+    ~[1]
+
+~[greet]
+    Pepper,
+    Salut,
+
+~[action]
+    scade volumul
+    poți să scazi volumul
+
+~[actionIntens]
+    scade intensitatea
+    aș vrea să scazi intensitatea
+    redu intensitatea
+    aș vrea să reduci intensitatea
+    poți să reduci intensitatea
+    ai putea oare scădea intensitatea
+
+~[muzica]
+    la muzica
+    la piesa
+
+~[muzicaD]
+    cântecului
+    concertului
+    simfoniei
+
+~[actionR]
+    dă mai încet
+    fă mai încet
+
+~[muzicaR]
+    muzica
+    piesa
+    cântecul
+    concertul
+    simfonia
